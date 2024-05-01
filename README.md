@@ -5,6 +5,7 @@ To get started with this SQLite query assembly, you must first add it to your __
 
 
 ```python
+import sqlite3
 from SQLite import SQLite
 
 
