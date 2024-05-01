@@ -18,7 +18,7 @@ Below are examples of the "CRUD" (CREATE, READ, UPDATE, DELETE) principle.
 All queries in the database are structured so that you list as many arguments as you like in the form of a dictionary for a particular action. It seems to me that this is very convenient.
 
 
-***Further in the examples, I mean that you work with classes and its methods, and you imported `SQLtite()` somewhere earlier and now it is constantly followed.***
+***In the following examples, I mean that you are working with classes and their methods, and you imported `SQLite()` somewhere earlier and now it is inherited.***
 
 <h3>INSERT(CREATE)</h3>
 
