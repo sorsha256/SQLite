@@ -1,3 +1,6 @@
+<h1>SQLite Query</h1>
+
+
 To get started with this SQLite query assembly, you must first add it to your __init__ executable class. Next, you need to access the connection attribute and specify the path to your database. This is so that if you initialize everything at the root of your class, which will later be inherited, it will help avoid having to constantly connect to the database. This way we connect only once and maintain a connection to the database constantly.
 
 
