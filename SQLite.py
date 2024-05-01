@@ -4,11 +4,7 @@ import time
 
 class SQLite:
     connect = None
-
-    @property
-    def connect_base(self):
-        return sqlite3.connect(f'./base/Base.db')
-
+    
     def insert(self, table, **kwargs):
         connect = self.connect
         obj = connect.cursor()
